@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:search_and_filter_dummy_data/products.dart';
+import '../data/products.dart';
+
+
 
 class FilterScreen extends StatefulWidget {
   const FilterScreen({super.key});
@@ -119,7 +121,7 @@ class _FilterScreenState extends State<FilterScreen> {
                         onPressed: () {
                           setState(() {
                             isLowToHigh = !isLowToHigh;
-                            if(isHighToLow){isHighToLow = false;};
+                            if(isHighToLow){isHighToLow = false;}
                           });
                         },
                         child: Text("Low to High"),
@@ -132,7 +134,7 @@ class _FilterScreenState extends State<FilterScreen> {
                         ),
                         onPressed: () {
                           setState(() {
-                            if(isLowToHigh){isLowToHigh = false;};
+                            if(isLowToHigh){isLowToHigh = false;}
                             isHighToLow = !isHighToLow;
                           });
                         },

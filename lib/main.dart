@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'filter_screen.dart';
+import 'package:search_and_filter_dummy_data/screen/filter_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
