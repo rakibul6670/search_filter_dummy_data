@@ -1,16 +1,30 @@
-# search_and_filter_dummy_data
+# 🔍 Search & Filter Product List - Flutter App
 
-A new Flutter project.
+This is a simple Flutter application that allows users to **search and filter products** by name, category, and sort by price (Low to High, High to Low).
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- 🔎 Search products by name or category
+- 🗂 Filter products by category
+- 💰 Sort products by price (Low to High or High to Low)
+- 📋 Dynamic product list display using ListView
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧪 Dummy Product Data
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The product data is stored in a Dart file (`products.dart`) as a `List<Map<String, dynamic>>`, and contains fields like:
+
+- `name`
+- `category`
+- `price`
+- `available`
+
+## 🚀 Getting Started
+
+To run this project on your machine:
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+flutter pub get
+flutter run
